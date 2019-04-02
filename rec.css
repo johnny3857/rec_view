@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+    
+    border: 1px solid orangered;
+}
+
+.search-box {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+#logo, #search-cat, #search-tag, #search-text {
+    padding: .1rem .2rem;
+}
+
+#logo {
+    font-size: 150%;
+    background-color: coral;
+}
+
+#search-cat {
+    background-color: crimson;
+}
+
+#search-tag {
+    background-color: rgb(214, 226, 45);
+}
+
+#search-text {
+    margin-left: auto;
+    background-color: rgb(81, 180, 238);
+}
+
