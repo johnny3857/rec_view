@@ -1,69 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href='https://fonts.googleapis.com/css?family=Kalam' rel='stylesheet'>
     
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="rec.css">
-    <title>Vackorkonyha</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="rec.css">
+	<title>Vackorkonyha</title>
 </head>
 <body>
-    <div class="container">
-        <div id="logo">VACKORKONYHA</div>
+	<div class="container">
+		<div id="logo">Vackorkonyha</div>
 
-        <div class="search-icon-wrapper">
-          <a href="#" class="search-icon"><i class="fas fa-hamburger fa-2x"></i></a>
-        </div>
+		<div id="search-box">
+				<div id="search-text">
+					<i class="fas fa-search"></i>#search-text
+					<div id="search-text-field">
+						<input type="text" name="rec-search" id="rec-search" placeholder="keress név szerint...">
+					</div>
+				</div>
 
-        <div class="search-box">
-          <ul class="search-list">
-            <li class="search-link">keresés</li>
-            <li class="search-link">kategóriák</li>
-            <li class="search-link search-cat">előételek</li>
-            <li class="search-link search-cat">levesek</li>
-            <li class="search-link search-cat">húsételek</li>
-            <li class="search-link search-cat">tésztaételek</li>
-            <li class="search-link search-cat">egytálételek</li>
-            <li class="search-link search-cat">saláták</li>
-            <li class="search-link search-cat">desszertek</li>
-            <li class="search-link search-cat">egyéb</li>
-          </ul>
-        </div>
+				<div id="search-cat">#search-cat
+					<i class="fas fa-hamburger"></i>
+					<ul id="search-cat-list">
+						<li class="search-cat-link">előételek</li>
+						<li class="search-cat-link">levesek</li>
+						<li class="search-cat-link">húsételek</li>
+						<li class="search-cat-link">tésztaételek</li>
+						<li class="search-cat-link">egytálételek</li>
+						<li class="search-cat-link">saláták</li>
+						<li class="search-cat-link">desszertek</li>
+						<li class="search-cat-link">egyéb</li>
+					</ul>
+				</div>
+		</div>
+
+		<!-- <div class="search-icon-wrapper">
+			<a href="#" class="search-icon"><i class="fas fa-hamburger fa-2x"></i></a>
+		</div>
+
+		<div class="search-box">
+			<ul class="search-list">
+				<li class="search-link">keresés</li>
+				<li class="search-link">kategóriák</li>
+				<li class="search-link search-cat">előételek</li>
+				<li class="search-link search-cat">levesek</li>
+				<li class="search-link search-cat">húsételek</li>
+				<li class="search-link search-cat">tésztaételek</li>
+				<li class="search-link search-cat">egytálételek</li>
+				<li class="search-link search-cat">saláták</li>
+				<li class="search-link search-cat">desszertek</li>
+				<li class="search-link search-cat">egyéb</li>
+			</ul>
+		</div> -->
     
 
-        <div class="tag-box">
-            <ul class="tag-list">
-                <li class="tag-link color01">egyik</li>
-                <li class="tag-link color02">másik</li>
-                <li class="tag-link color03 unselected">harmadik</li>
-                <li class="tag-link color04">címke04</li>
-                <li class="tag-link color05">címke05</li>
-                <li class="tag-link color06">címke06</li>
-                <li class="tag-link color07 unselected">mindegyik</li>
-                <li class="tag-link color08 unselected">egyik sem</li>
-            </ul>
-        </div>
+		<div class="tag-box">
+			<ul class="tag-list">
+				<li class="tag-link color01">egyik</li>
+				<li class="tag-link color02">másik</li>
+				<li class="tag-link color03 unselected">harmadik</li>
+				<li class="tag-link color04">címke04</li>
+				<li class="tag-link color05">címke05</li>
+				<li class="tag-link color06">címke06</li>
+				<li class="tag-link color07 unselected">mindegyik</li>
+				<li class="tag-link color08 unselected">egyik sem</li>
+			</ul>
+		</div>
 
-        <div class="food-box">
-            <ul class="food-list">
-                <li class="food-link"><p class="food-name">Pizza vegetale</p></li>
-                <li class="food-link"><p class="food-name">Hamiskás gulyás</p></li>
-                <li class="food-link"><p class="food-name">Eddmeg leves</p></li>
-                <li class="food-link"><p class="food-name">Egytálétel</p></li>
-                <li class="food-link"><p class="food-name">Tésztasaláta</p></li>
-                <li class="food-link"><p class="food-name">Tegnapi maradék</p></li>
-                <li class="food-link"><p class="food-name">Rántott gömb</p></li>
-                <li class="food-link"><p class="food-name">Spaghetti alla Bolognese</p></li>
-                <li class="food-link"><p class="food-name">Rakott palacsinta amerikai módra</p></li>
-                <li class="food-link"><p class="food-name">Egybesült álmok</p></li>
-                <li class="food-link"><p class="food-name">Szem-szájnak ingere</p></li>
-                <li class="food-link"><p class="food-name">Diétás halfilé szegényesen</p></li>
-            </ul>
-        </div>
-    </div>
-    <script src="main.js"></script>
+		<div class="food-box">
+			<ul class="food-list">
+				<li class="food-link"><p class="food-name">Pizza vegetale</p></li>
+				<li class="food-link"><p class="food-name">Hamiskás gulyás</p></li>
+				<li class="food-link"><p class="food-name">Eddmeg leves</p></li>
+				<li class="food-link"><p class="food-name">Egytálétel</p></li>
+				<li class="food-link"><p class="food-name">Tésztasaláta</p></li>
+				<li class="food-link"><p class="food-name">Tegnapi maradék</p></li>
+				<li class="food-link"><p class="food-name">Rántott gömb</p></li>
+				<li class="food-link"><p class="food-name">Spaghetti alla Bolognese</p></li>
+				<li class="food-link"><p class="food-name">Rakott palacsinta amerikai módra</p></li>
+				<li class="food-link"><p class="food-name">Egybesült álmok</p></li>
+				<li class="food-link"><p class="food-name">Szem-szájnak ingere</p></li>
+				<li class="food-link"><p class="food-name">Diétás halfilé szegényesen</p></li>
+			</ul>
+		</div>
+	
+	</div>
+	
+	<script src="main.js"></script>
 </body>
 </html>
